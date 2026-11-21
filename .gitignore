@@ -1,0 +1,34 @@
+# third-party binaries — setup.ps1 downloads these
+scrcpy/
+*.zip
+
+# old versions — git history replaces this
+_archive/
+
+# personal / per-machine data (repo ships *.example versions)
+appdb.csv
+launch-log.csv
+apps-cache.txt
+last-phone.txt
+aliases.txt
+bookmarks.csv
+categories.csv
+
+# logs and diagnostics (contain phone output)
+logs/
+diag/
+*.log
+
+# secrets — never commit
+.env
+.env.*
+
+# editor / OS / agent tools
+.vscode/
+Thumbs.db
+desktop.ini
+.opencode/
+.claude/settings.local.json
+
+# debug dump written by appdb.ps1 (phone output)
+appdb-debug-usagestats.txt

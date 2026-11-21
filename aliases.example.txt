@@ -1,0 +1,5 @@
+# name=package  (droid <name> uses these first; edit freely)
+youtube=com.google.android.youtube
+ytmusic=com.google.android.apps.youtube.music
+settings=com.android.settings
+chrome=com.android.chrome
